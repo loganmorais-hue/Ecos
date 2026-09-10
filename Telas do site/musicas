@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seus Gêneros Musicais</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+        }
 
+        /* Fundo com gradiente radial azul igual ao da imagem */
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle at center, #0e3768 0%, #030d22 100%);
+            color: #ffffff;
+            padding: 20px;
+        }
+
+        /* Wrapper principal (div) */
+        .container {
+            width: 100%;
+            max-width: 950px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Título (div) */
+        .titulo {
+            font-size: 26px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 45px;
+            letter-spacing: 0.2px;
+        }
+
+        /* Container com todas as linhas de gêneros (div) */
+        .grade-generos {
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+            width: 100%;
+            align-items: center;
+        }
+
+        /* Cada linha de gêneros (div) */
+        .linha {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        /* Pílula / Botão de gênero (div) */
+        .tag-genero {
+            background-color: #ffffff;
+            color: #3f92d2;
+            font-weight: 600;
+            font-size: 19px;
+            padding: 12px 30px;
+            border-radius: 50px;
+            cursor: pointer;
+            user-select: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.2s ease-in-out;
+        }
+
+        /* Efeito de destaque ao passar o mouse */
+        .tag-genero:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+            background-color: #f4f9ff;
+        }
+
+        .tag-genero:active {
+            transform: translateY(0);
+        }
+        </style>
+</head>
+<body>
+
+    <!-- Container Principal -->
+    <div class="container">
+
+        <!-- Título em div -->
+        <div class="titulo">
+            Escolha os gêneros que mais combinam com você (pelo menos 5):
+        </div>
+
+        <!-- Grade com as 5 linhas de gêneros -->
+        <div class="grade-generos">
+
+            <!-- Linha 1 -->
+            <div class="linha">
+                <div class="tag-genero">Rock</div>
+                <div class="tag-genero">Pop</div>
+                <div class="tag-genero">MPB</div>
+                <div class="tag-genero">Jazz</div>
+                <div class="tag-genero">Hip-Hop</div>
+            </div>
+
+            <!-- Linha 2 -->
+            <div class="linha">
+                <div class="tag-genero">Eletrônico</div>
+                <div class="tag-genero">Indie</div>
+                <div class="tag-genero">Sertanejo</div>
+                <div class="tag-genero">Gospel</div>
+            </div>
+
+            <!-- Linha 3 -->
+            <div class="linha">
+                <div class="tag-genero">Trilha sonora de Jogo</div>
+                <div class="tag-genero">Reggae</div>
+                <div class="tag-genero">Hard Rock</div>
+                <div class="tag-genero">Heavy Metal</div>
+            </div>
+
+            <!-- Linha 4 -->
+            <div class="linha">
+                <div class="tag-genero">Trilha sonora de Anime</div>
+                <div class="tag-genero">Synthwave</div>
+                <div class="tag-genero">Soul</div>
+            </div>
+
+            <!-- Linha 5 -->
+            <div class="linha">
+                <div class="tag-genero">Instrumental</div>
+                <div class="tag-genero">Progressive-Rock</div>
+                <div class="tag-genero">Punk Rock</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
