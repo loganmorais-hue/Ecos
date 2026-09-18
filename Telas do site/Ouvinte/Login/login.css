@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(rgba(5, 10, 35, 0.35), rgba(5, 10, 35, 0.55)),url("https://uploads.onecompiler.io/44gvyfsca/1788521232910/Wavez.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffff;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+  margin-top: 0;
+}
+
+.nav a{
+  text-decoration: none;
+}
+
+.login {
+  width: 415px;
+  min-height: 0;
+  margin-top: 70px;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(10, 15, 44, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 28px;
+  backdrop-filter: blur(12px);
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  background: linear-gradient(135deg,#1565c0,#00abff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.logo span {
+  display: block;
+  margin-top: -8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8bbcff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.fone-container {
+  width: 105px;
+  height: 105px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(0, 145, 255, 0.08);
+  border: 1px solid rgba(0, 171, 255, 0.25);
+  box-shadow: 0 0 30px rgba(0, 145, 255, 0.18);
+}
+
+.fone{
+  width: 90px;
+  height: auto;
+}
+
+.bem-vindo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bem-vindo h2 {
+  margin: 0;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.bem-vindo p {
+  margin: 5px 0 25px;
+  font-size: 13px;
+  color: #9da9c7;
+}
+
+form {
+  width: 100%;
+}
+
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #c8d2ec;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 13px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.06);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  transition: 0.25s;
+}
+
+.input-group input::placeholder {
+  color: #687493;
+}
+
+.input-group input:focus {
+  border-color: #159cff;
+  background: rgba(21, 156, 255, 0.08);
+  box-shadow: 0 0 0 3px rgba(21, 156, 255, 0.08);
+}
+
+.enviar{
+  width: 100%;
+  margin-top: 5px;
+  padding: 13px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg,#1565c0,#009fff);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.enviar:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 150, 255, 0.25);
+}
+
+.switch {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #7783a3;
+  text-align: center;
+}
+
+.switch a {
+  margin-left: 4px;
+  color: #29a9ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.switch a:hover {
+  text-decoration: underline;
+}
+
+.GoogleLogin {
+  width: 85%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 15px;
+  border: 1px solid rgba(21, 156, 255, 0.7);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.GoogleLogin:hover {
+  background: rgba(21, 156, 255, 0.12);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 150, 255, 0.2);
+}
+
+.googleicon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
