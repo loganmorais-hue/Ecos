@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela principal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+          <img class="logo" src="https://uploads.onecompiler.io/44nnywy75/1788522514044/C%C3%B3pia%20de%20Login%20(1).png" alt="Fone de ouvido">
+            <nav>
+                <a class="ativo" href="#inicio">Início</a>
+                <a href="#musicas">Explorar</a>
+                <a href="#playlists">Playlists</a>
+                <a href="#sobre">Sobre</a>
+            </nav>
+            <form class="busca">
+                <label for="pesquisa">Buscar</label>
+                <input type="text" id="pesquisa" name="pesquisa" placeholder="🔎︎ Pesquisa">
+            </form>
+            <div class="perfil">
+              <a href="#perfil"></a>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="htp://w3.org" style="width: 41px; height: 35px;">
+              <g mask="url(#avatarMask)">
+                <circle cx="12" cy="8.5" r="3.5" fill="#FFFFFF"/>
+                <path d="M12 13C8.13401 13 5 16.134 5 20C5 20.5523 5.44772 21 6 21H18C18.5523 21 19 20.5523 19 20C19 16.134 15.866 13 12 13Z" fill="#FFFFFF"/>
+              </g>
+            </svg>
+            </a>
+            </div>
+        </div>
+    </header>
+<br><br><br>
+    <main>
+        <section id="inicio" class="apresentacao">
+            <article class="texto-principal">
+                <p class="aviso">SUA TRILHA SONORA COMEÇA AQUI</p>
+                <h2>Sua <span>música</span>,<br>seu <span>momento</span>.</h2>
+                <p class="descricao">Descubra novos sons, monte suas playlists e encontre músicas para cada momento do seu dia.</p>
+                <a class="botao" href="#musicas">Começar a ouvir</a>
+                <a class="botao botao-vazio" href="#playlists">Ver playlists</a>
+
+                <div class="vantagens">
+                    <div class="vantagem">
+                        <span class="icone">♫</span>
+                        <p><strong>Milhões de músicas</strong><br>De todos os gêneros</p>
+                    </div>
+                    <div class="vantagem">
+                        <span class="icone">♥</span>
+                        <p><strong>Playlists para você</strong><br>Curadas com amor</p>
+                    </div>
+                    <div class="vantagem">
+                        <span class="icone">◉</span>
+                        <p><strong>Ouça de onde estiver</strong><br>Online ou Offline</p>
+                    </div>
+                </div>
+            </article>
+            <aside class="destaque">
+                <img class="foto-fone" src="https://uploads.onecompiler.io/44nnywy75/1788522518430/C%C3%B3pia_de_Login-removebg-preview.png" alt="Fone de ouvido">
+                <img class="fundo-fone" src="https://uploads.onecompiler.io/44nnywy75/1789729606571/Design%20sem%20nome.png" alt="Fundo fone">
+           </aside>
+           <br><br><br><br><br>
+        </section>
+
+        <section id="musicas" class="secao">
+          
+            <h2>Populares</h2>
+            <p class="introducao">Uma seleção para você conhecer agora.</p>
+
+            <div class="lista-musicas">
+                <article class="musica azul">
+                    <p class="capa">♫</p>
+                    <h3>XXXXXXX</h3>
+                    <p>XXXXXXXXXXXXXX</p>
+                    <span>XXX</span>
+                </article>
+
+                <article class="musica roxa">
+                    <p class="capa">♫</p>
+                    <h3>XXXXXXX</h3>
+                    <p>XXXXXXXXXXXXXX</p>
+                    <span>XXX</span>
+                </article>
+
+                <article class="musica rosa">
+                    <p class="capa">♫</p>
+                    <h3>XXXXXXX</h3>
+                    <p>XXXXXXXXXXXXXX</p>
+                    <span>XXX</span>
+                </article>
+
+                <article class="musica laranja">
+                    <p class="capa">♫</p>
+                    <h3>XXXXXXX</h3>
+                    <p>XXXXXXXXXXXXXX</p>
+                    <span>XXX</span>
+                </article>
+            </div>
+        </section>
+</body>
+</html>
