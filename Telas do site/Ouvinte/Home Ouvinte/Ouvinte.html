@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ouvinte.css">
+</head>
+<body>
+    <header class="topbar">
+        <img class="logo" src="https://uploads.onecompiler.io/44gvyfsca/452959n5r/Logomarca.png.png" />
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar músicas, artists...">
+        </div>
+        <div class="user-actions">
+            <button class="icon-btn" title="Notificações" aria-label="Notificações">🔔</button>
+            <div class="avatar" title="Perfil do usuário">L</div>
+        </div>
+    </header>
+
+    <div class="layout-container">
+        <aside class="sidebar-left">
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Recolher menu" aria-expanded="true">☰</button>
+            <nav class="menu">
+                <a href="#" class="menu-item active"><span class="label">Início</span></a>
+                <a href="#" class="menu-item"><span class="label">Explorar</span></a>
+                <a href="#" class="menu-item"><span class="label">Playlists</span></a>
+                <a href="#" class="menu-item"><span class="label">Artistas</span></a>
+                <a href="#" class="menu-item"><span class="label">Sua Biblioteca</span></a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <div class="saudacao">
+                <h1>Olá, X!</h1>
+                <p class="subtitle">O que você ouvir hoje?</p>
+            </div>
+            <div class="mood-pills">
+                <button class="pill active">Qualquer momento</button>
+                <button class="pill">Foco</button>
+                <button class="pill">Relax</button>
+                <button class="pill">Animado</button>
+                <button class="pill pill-icon">✨</button>
+            </div>
+            <div class="main-container">
+                <div class="main-left">
+                    <div class="today-eco"></div>
+                    <section class="section-pra-voce">
+                        <div class="section-header">
+                            <h3>Para você</h3>
+                            <a href="#" class="see-all">Ver todos →</a>
+                        </div>
+                        <div class="cards-grid">
+                            <article class="card">
+                                <div class="card-cover bg-1">
+                                    <button class="play-btn" aria-label="Tocar Indie Vibes">▶</button>
+                                </div>
+                                <h4>Indie Vibes</h4>
+                                <p>Indie • 2025</p>
+                            </article>
+
+                            <article class="card">
+                                <div class="card-cover bg-2">
+                                    <button class="play-btn" aria-label="Tocar Rock Clássico">▶</button>
+                                </div>
+                                <h4>Rock Clássico</h4>
+                                <p>Rock • 2025</p>
+                            </article>
+
+                            <article class="card">
+                                <div class="card-cover bg-3">
+                                    <button class="play-btn" aria-label="Tocar Noite Lunar">▶</button>
+                                </div>
+                                <h4>Noite Lunar</h4>
+                                <p>Alternativo • 2025</p>
+                            </article>
+
+                            <article class="card">
+                                <div class="card-cover bg-4">
+                                    <button class="play-btn" aria-label="Tocar Foco e Produtividade">▶</button>
+                                </div>
+                                <h4>Foco & Produtividade</h4>
+                                <p>Lo-fi • 2025</p>
+                            </article>
+                            <article class="card">
+                                <div class="card-cover bg-5">
+                                    <button class="play-btn" aria-label="Tocar Boas Energias">▶</button>
+                                </div>
+                                <h4>Boas Energias</h4>
+                                <p>Indie • 2025</p>
+                            </article>
+                        </div>
+                    </section>
+                    <!-- SEÇÃO: ARTISTAS QUE VOCÊ VAI GOSTAR -->
+                    <section class="section-artistas">
+                        <div class="section-header">
+                            <h3>Artistas que você vai gostar</h3>
+                            <a href="#" class="see-all">Ver todos →</a>
+                        </div>
+
+                        <div class="artistas-grid">
+                            <article class="artist-card">
+                                <div class="artist-avatar bg-artist-1">
+                                    <button class="play-btn" aria-label="Tocar Arctic Monkeys">▶</button>
+                                </div>
+                                <h4>Arctic Monkeys</h4>
+                                <p>Artista • Indie Rock</p>
+                            </article>
+
+                            <article class="artist-card">
+                                <div class="artist-avatar bg-artist-2">
+                                    <button class="play-btn" aria-label="Tocar Tame Impala">▶</button>
+                                </div>
+                                <h4>Tame Impala</h4>
+                                <p>Artista • Psicodélico</p>
+                            </article>
+
+                            <article class="artist-card">
+                                <div class="artist-avatar bg-artist-3">
+                                    <button class="play-btn" aria-label="Tocar The Strokes">▶</button>
+                                </div>
+                                <h4>The Strokes</h4>
+                                <p>Artista • Rock Alternativo</p>
+                            </article>
+
+                            <article class="artist-card">
+                                <div class="artist-avatar bg-artist-4">
+                                    <button class="play-btn" aria-label="Tocar Florence + The Machine">▶</button>
+                                </div>
+                                <h4>Florence + The Machine</h4>
+                                <p>Artista • Indie Pop</p>
+                            </article>
+
+                            <article class="artist-card">
+                                <div class="artist-avatar bg-artist-5">
+                                    <button class="play-btn" aria-label="Tocar Radiohead">▶</button>
+                                </div>
+                                <h4>Radiohead</h4>
+                                <p>Artista • Alt Rock</p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+                <div class="aside">
+                    <aside class="historico"></aside>
+                    <aside class="ia-eco"></aside>
+                </div>
+            </div>
+            <footer class="site-footer">
+                <div class="footer-sections">
+                    <div class="footer-col">
+                        <h4>ECO Music</h4>
+                        <p>A sua plataforma interativa de streaming e descoberta musical.</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="#">Início</a></li>
+                            <li><a href="#">Explorar</a></li>
+                            <li><a href="#">Playlists</a></li>
+                            <li><a href="#">Artistas</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Comunidade</h4>
+                        <ul>
+                            <li><a href="#">Para Artistas</a></li>
+                            <li><a href="#">Desenvolvedores</a></li>
+                            <li><a href="#">Publicidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Links Úteis</h4>
+                        <ul>
+                            <li><a href="#">Suporte</a></li>
+                            <li><a href="#">Termos de Uso</a></li>
+                            <li><a href="#">Política de Privacidade</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>2026 ECO Music. Todos os direitos reservados.</p>
+                </div>
+            </footer>
+        </main>
+    </div>
+    
+
+    <script>
+        const menuToggle = document.querySelector('#menuToggle');
+        const layout = document.querySelector('.layout-container');
+
+        menuToggle.addEventListener('click', () => {
+            const isCollapsed = layout.classList.toggle('menu-collapsed');
+            menuToggle.setAttribute('aria-expanded', String(!isCollapsed));
+            menuToggle.setAttribute(
+                'aria-label',
+                isCollapsed ? 'Expandir menu' : 'Recolher menu'
+            );
+        });
+    </script>
+</body>
+</html>
