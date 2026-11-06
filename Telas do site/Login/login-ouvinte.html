@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eco</title>
+  <link rel="stylesheet" href="login-ouvinte.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <img class="logomarca" src="https://uploads.onecompiler.io/44gvyfsca/452959n5r/Logomarca.png.png" alt="Logomarca">
+    <nav class="nav">
+    </nav>
+  </header>
+  
+  <div class="login">
+    <div class="logo">
+      <h1>Eco</h1>
+      <span>Ouvinte</span>
+    </div>
+
+    <div class="fone-container">
+      <img class="fone" src="https://uploads.onecompiler.io/44gvyfsca/452959n5r/Fone2.png" alt="Microfone">
+    </div>
+
+    <div class="bem-vindo">
+      <h2>Bem-vindo de volta</h2>
+      <p>Entre na sua conta de ouvinte</p>
+    </div>
+
+    <form id="login-form">
+      <div class="input-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Digite seu e-mail">
+      </div>
+
+      <div class="input-group">
+        <label for="password">Senha</label>
+        <input type="password" id="password" placeholder="Digite sua senha">
+      </div>
+
+      <button class="enviar" type="button" id="submit" onclick="entrar()">
+        Entrar
+      </button>
+      <p id="mensagem" aria-live="polite"></p>
+
+    </form>
+    <a class="recuperar" id="recuperar" onclick="esqueci_senha()">Esqueceu a senha?</a>
+    <p>Ou</p>
+    
+    <button class="GoogleLogin">
+      <img class="googleicon" src="https://uploads.onecompiler.io/44gvyfsca/452959n5r/C%C3%83%C2%B3pia%20de%20Login.png" alt="Google">
+      <span>Entrar com google</span>
+    </button>
+
+    <div class="switch">
+      <span>Não é ouvinte?</span>
+      <a href="#" id="troca" onclick="trocar()">Entrar como artista</a>
+    </div>
+    <div class="cadastrar">
+      <p>Não tem uma conta?</p>
+      <a onclick="cadastrar()">Cadastrar</a>
+    </div>
+  </div>
+  <script src="script1.js" defer></script>
+</body>
+</html>
