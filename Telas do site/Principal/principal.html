@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eco</title>
+    <link rel="stylesheet" href="index-style.css" />
+  </head>
+  <body>
+      <header class="topbar">
+        <img class="logo" src="https://uploads.onecompiler.io/44gvyfsca/452959n5r/Logomarca.png.png" alt="Logo ECO"/>
+        <nav class="menu">
+                <a href="#" class="menu-item active"><span class="label">Início</span></a>
+                <a href="#" class="menu-item"><span class="label">Explorar</span></a>
+                <a href="#" class="menu-item"><span class="label">Gêneros</span></a>
+                <a href="#" class="menu-item"><span class="label">Sobre</span></a>
+            </nav>        
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar músicas, artists...">
+        </div>
+          <div class="auth-buttons">
+            <button type="button" class="btn btn-login" onclick="logar()">Entrar</button>
+            <button type="button" class="btn btn-register" onclick="cadastrar()">Cadastrar</button>
+          </div>
+    </header>
+
+    <main class="home-content">
+      <section class="hero-section">
+        <div class="hero-copy">
+          <span class="eyebrow">SUA NOVA FORMA DE OUVIR MÚSICA</span>
+          <h1>Descubra, explore,<br><strong>seja você.</strong></h1>
+          <p>O ECO te conecta com o som certo, na hora certa.<br>Recomendações personalizadas, playlists para todos<br>os momentos e muito mais.</p>
+          <div class="hero-actions">
+            <a href="/cadastro/cadastro.html" class="btn btn-register" onclick="cadastrar()">Criar conta grátis</a>
+            <a href="#explore" class="btn btn-outline" onclick="logar()">Explorar agora</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="explore">
+        <div class="section-heading">
+          <div>
+            <h2>Em alta agora</h2>
+            <p>As músicas que estão conquistando todo mundo.</p>
+          </div>
+          <a href="#" class="see-more">Ver mais →</a>
+        </div>
+        <div class="album-grid">
+          <article class="album-card glass-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/79/Tame_Impala_Solitude_Is_Bliss_single_art.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="">
+            <div><h3>Solitude is Bliss</h3><p>Tame Impala</p></div><span>3:48</span>
+          </article>
+          <article class="album-card glass-card">
+            <img src="https://speaktodaybr.com.br/wp-content/uploads/2026/04/e678bd119570653.60a090a514e50.jpg.webp" alt="">
+            <div><h3>Good 4 U</h3><p>Olivia Rodrigo</p></div><span>2:58</span>
+          </article>
+          <article class="album-card glass-card">
+            <img src="https://i1.sndcdn.com/artworks-000338044350-k1fnp7-t500x500.jpg" alt="">
+            <div><h3>A Luz que me traz Paz</h3><p>Maneva</p></div><span>3:41</span>
+          </article>
+          <article class="album-card glass-card">
+            <img src="https://i1.sndcdn.com/artworks-000085095684-t1polo-t500x500.jpg" alt="">
+            <div><h3>R U Mine?</h3><p>Arctic Monkeys</p></div><span>3:21</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="section-heading">
+          <div><h2>Explore por gênero</h2><p>Encontre o som que combina com você.</p></div>
+        </div>
+        <div class="genre-grid">
+          <a href="#" class="genre-card glass-card"><div class="circle"><span>♫</span></div><strong>Pop</strong><small>Batidas que grudam.</small></a>
+          <a href="#" class="genre-card glass-card"><div class="circle"><span>♩</span></div><strong>Hip Hop</strong><small>Ritmo e atitude.</small></a>
+          <a href="#" class="genre-card glass-card"><div class="circle"><span>♬</span></div><strong>Rock</strong><small>Clássicos e novos.</small></a>
+          <a href="#" class="genre-card glass-card"><div class="circle"><span>◉</span></div><strong>Eletrônica</strong><small>Beats eletrizantes.</small></a>
+          <a href="#" class="genre-card glass-card"><div class="circle"><span>✿</span></div><strong>MPB</strong><small>Nossa cultura.</small></a>
+          <a href="#" class="genre-card glass-card"><div class="circle"><span>☆</span></div><strong>Indie</strong><small>Para quem busca o diferente.</small></a>
+        </div>
+      </section>
+
+      <section class="content-section artists-section">
+        <div class="section-heading">
+          <div><h2>Artistas em destaque</h2><p>Conheça talentos que estão fazendo a diferença.</p></div>
+          <a href="#" class="see-more">Ver mais →</a>
+        </div>
+        <div class="artist-grid">
+          <a href="#" class="artist-card"><img src="https://uploads.onecompiler.io/44gvyfsca/1789940326661/Snapinsta.app_146997524_213153530501944_9145275337897666789_n_1080.jpg" alt=""><span>The Weeknd</span></a>
+          <a href="#" class="artist-card"><img src="https://uploads.onecompiler.io/44gvyfsca/1789940781961/Billie_Eilish_at_Pukkelpop_Festival_-_18_AUGUST_2019_(01)_(cropped).jpg" alt=""><span>Billie Eilish</span></a>
+          <a href="#" class="artist-card"><img src="https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601" alt=""><span>Tame Impala</span></a>
+          <a href="#" class="artist-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScrzHZNWjPuku4zcIJvBMHAdgzVDDOB0he1O9fsw9y1w&s=10" alt=""><span>SZA</span></a>
+          <a href="#" class="artist-card"><img src="https://www.coca-cola.com/content/dam/onexp/global/central/offerings/coke-studio/artists/2_Imagine_Dragons_by_Eric_Ray_Davidson_GREEN_04_1-1.jpg" alt=""><span>Imagine Dragons</span></a>
+          <a href="#" class="artist-card"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Lana_Del_Rey_Cannes_2012.jpg/250px-Lana_Del_Rey_Cannes_2012.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt=""><span>Lana Del Rey</span></a>
+          <a href="#" class="artist-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz6kq8Dk0Y-WmNEUKAlZMPJKxGxWERejW8aNJT8SoYG6rUHwyxJgcCRof1&s=10" alt=""><span>Tyler, The Creator</span></a>
+        </div>
+      </section>
+
+      <section class="join-banner glass-card">
+        <div><h2>Junte-se ao ECO!</h2><p>Crie sua conta grátis e tenha acesso a recomendações personalizadas,<br>playlists exclusivas e muito mais.</p></div>
+        <a href="/cadastro/cadastro.html" class="btn btn-register">Criar conta grátis →</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+                <div class="footer-sections">
+                    <div class="footer-col">
+                        <h4>ECO</h4>
+                        <p>A sua plataforma interativa de streaming e descoberta musical.</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="#">Início</a></li>
+                            <li><a href="#">Explorar</a></li>
+                            <li><a href="#">Playlists</a></li>
+                            <li><a href="#">Artistas</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Comunidade</h4>
+                        <ul>
+                            <li><a href="#">Para Artistas</a></li>
+                            <li><a href="#">Desenvolvedores</a></li>
+                            <li><a href="#">Publicidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Links Úteis</h4>
+                        <ul>
+                            <li><a href="#">Suporte</a></li>
+                            <li><a href="#">Termos de Uso</a></li>
+                            <li><a href="#">Política de Privacidade</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>2026 ECO. Todos os direitos reservados.</p>
+                </div>
+            </footer>
+    
+    <script src="index-js.js"></script>
+  </body>
+</html>
