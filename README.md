@@ -1,6 +1,6 @@
 ### Assets
 
-os assets incluem pngs para serem instalados antes de rodar abrir a pagina.
+os assets incluem pngs para serem instalados antes de abrir a pagina.
 
 -----
 
