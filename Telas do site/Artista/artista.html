@@ -1,1 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ECO | Painel do artista</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="index-artista-style.css" />
+</head>
+
+<body>
+    <header class="topbar">
+        <a class="brand" href="#inicio" aria-label="ECO - início">
+            <img src="https://uploads.onecompiler.io/44gvyfsca/452959n5r/Logomarca.png.png" alt="ECO" />
+        </a>
+
+        <nav class="top-nav" aria-label="Navegação principal">
+            <a class="active" href="#inicio">Início</a>
+            <a href="#lancamentos">Minhas músicas</a>
+            <a href="#playlists">Playlists</a>
+            <a href="#analytics">Analytics</a>
+        </nav>
+
+        <div class="top-actions">
+            <label class="search-bar">
+                <span class="search-label">Buscar</span>
+                <input type="search" placeholder="músicas, artistas..." />
+            </label>
+            <button class="icon-button" type="button" aria-label="Notificações">Notificações</button>
+            <button class="profile-button" type="button" aria-label="Abrir perfil">
+                <span>X</span>
+            </button>
+        </div>
+    </header>
+
+    <main id="inicio" class="page-shell">
+        <section class="dashboard-grid">
+            <div class="content-column">
+                <section class="hero-panel glass-panel">
+                    <div class="profile-wrap">
+                        <div class="profile-image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgR7eMFHlYDDYBVqj-mdE9fUPmg3htt-QHu9h5BcJVkUmieq1M2yN0ZjyP&s=10" alt="Foto de Aurora" />
+                        </div>
+                        <span class="verified-badge">Verificado</span>
+                    </div>
+
+                    <div class="hero-copy">
+                        <p class="eyebrow">PAINEL DO ARTISTA</p>
+                        <h1>Olá, X!</h1>
+                        <p>Acompanhe suas músicas, seu público e seus resultados.</p>
+                        <button class="primary-button" type="button">Publicar música</button>
+                    </div>
+
+                    <div class="hero-art">
+                        <img src="https://uploads.onecompiler.io/44gvyfsca/452959n5r/images.jpg " alt="Imagem de destaque de Aurora" />
+                    </div>
+                </section>
+
+                <section class="stats-grid" aria-label="Resumo de desempenho">
+                    <article class="stat-card glass-card">
+                        <span class="stat-icon" role="img" aria-label="Ouvintes">🎧</span>
+                        <div>
+                            <p>Ouvintes mensais</p><strong>12,8 mil</strong></div>
+                        <em>18% de crescimento</em>
+                    </article>
+                    <article class="stat-card glass-card">
+                        <span class="stat-icon" role="img" aria-label="Reproduções">▶️</span>
+                        <div>
+                            <p>Reproduções totais</p><strong>248,3 mil</strong></div>
+                        <em>32% de crescimento</em>
+                    </article>
+                    <article class="stat-card glass-card">
+                        <span class="stat-icon" role="img" aria-label="Curtidas">💙</span>
+                        <div>
+                            <p>Curtidas</p><strong>8,7 mil</strong></div>
+                        <em>21% de crescimento</em>
+                    </article>
+                    <article class="stat-card glass-card">
+                        <span class="stat-icon" role="img" aria-label="Seguidores">👥</span>
+                        <div>
+                            <p>Seguidores</p><strong>5,2 mil</strong></div>
+                        <em>14% de crescimento</em>
+                    </article>
+                </section>
+
+                <section id="lancamentos" class="section-block">
+                    <div class="section-heading">
+                        <h2>Seus lançamentos</h2>
+                        <a href="#lancamentos">Ver todos</a>
+                    </div>
+
+                    <div class="release-grid">
+                        <article class="release-card glass-card">
+                            <span class="release-cover" role="img" aria-label="Capa de Noite Lunar">🌙</span>
+                            <div class="release-info">
+                                <h3>Noite Lunar</h3>
+                                <p>Single, 2025</p>
+                                <footer><span>48,2 mil reproduções</span><span>3,4 mil curtidas</span></footer>
+                            </div>
+                            <button class="mini-play" type="button" aria-label="Reproduzir Noite Lunar">Reproduzir</button>
+                        </article>
+                        <article class="release-card glass-card">
+                            <span class="release-cover" role="img" aria-label="Capa de Entre o Caos">🌊</span>
+                            <div class="release-info">
+                                <h3>Entre o Caos</h3>
+                                <p>Single, 2025</p>
+                                <footer><span>32,7 mil reproduções</span><span>2,1 mil curtidas</span></footer>
+                            </div>
+                            <button class="mini-play" type="button" aria-label="Reproduzir Entre o Caos">Reproduzir</button>
+                        </article>
+                        <article class="release-card glass-card">
+                            <span class="release-cover" role="img" aria-label="Capa de Sangue e Gelo">❄️</span>
+                            <div class="release-info">
+                                <h3>Sangue e Gelo</h3>
+                                <p>Single, 2025</p>
+                                <footer><span>21,4 mil reproduções</span><span>1,7 mil curtidas</span></footer>
+                            </div>
+                            <button class="mini-play" type="button" aria-label="Reproduzir Sangue e Gelo">Reproduzir</button>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="playlists" class="section-block">
+                    <div class="section-heading">
+                        <h2>Suas playlists</h2><a href="#playlists">Ver todas</a></div>
+                    <div class="playlist-grid">
+                        <article class="playlist-card glass-card"><span class="playlist-cover" role="img" aria-label="Playlist Meus lançamentos">🎵</span>
+                            <div>
+                                <h3>Meus lançamentos</h3>
+                                <p>12 músicas</p>
+                            </div>
+                        </article>
+                        <article class="playlist-card glass-card"><span class="playlist-cover" role="img" aria-label="Playlist Referências">🔎</span>
+                            <div>
+                                <h3>Referências</h3>
+                                <p>28 músicas</p>
+                            </div>
+                        </article>
+                        <article class="playlist-card glass-card"><span class="playlist-cover" role="img" aria-label="Playlist Inspirações">✨</span>
+                            <div>
+                                <h3>Inspirações</h3>
+                                <p>37 músicas</p>
+                            </div>
+                        </article>
+                        <article class="playlist-card glass-card"><span class="playlist-cover" role="img" aria-label="Playlist Favoritas">⭐</span>
+                            <div>
+                                <h3>Favoritas</h3>
+                                <p>64 músicas</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="eco-banner glass-panel">
+                    <img src="https://uploads.onecompiler.io/44gvyfsca/452959n5r/Logomarca.png.png" alt="ECO" />
+                    <p>Explore novos sons, encontre referências e leve sua música para o próximo nível.</p>
+                    <button class="primary-button" type="button">Explorar agora</button>
+                </section>
+            </div>
+
+            <aside class="right-column">
+                <section class="ecos-panel">
+                    <div class="panel-heading">
+                        <div>
+                            <p class="section-eyebrow">DESCOBERTA</p>
+                            <h2>✦ ECOS</h2>
+                        </div>
+                    </div>
+
+                    <p class="panel-description">Encontre referências e novos sons para inspirar sua próxima música.</p>
+                    <a href="#" class="eco-link eco-link-pink">
+                        <span class="eco-link-icon">♫</span>
+                        <span class="eco-link-text"><b>Parecida com meus gostos</b>
+                <small>Descubra músicas próximas ao seu estilo.</small>
+            </span>
+                        <strong>›</strong>
+                    </a>
+
+                    <a href="#" class="eco-link eco-link-blue">
+                        <span class="eco-link-icon">▤</span>
+                        <span class="eco-link-text"><b>Por descrição</b>
+                <small>
+                    Descreva o que você quer ouvir.
+                </small>
+
+            </span>
+
+                        <strong>›</strong>
+                    </a>
+
+                    <a href="#" class="eco-link eco-link-purple">
+                        <span class="eco-link-icon">✦</span>
+                        <span class="eco-link-text"><b>Surpreenda-me!</b>
+
+                <small>
+                    Deixe o ECO encontrar algo novo.
+                </small>
+            </span>
+                        <strong>›</strong>
+                    </a>
+                </section>
+
+                <section class="activity-panel">
+                    <div class="activity-header">
+                        <h2>♫ Atividade recente</h2>
+                        <a href="#">Ver todas →</a>
+                    </div>
+
+                    <div class="activity-list">
+                        <div class="activity">
+                            <span class="activity-icon activity-pink">♡</span>
+                            <div class="activity-content">
+                                <p>
+                                    Sua música <b>“Noite Lunar”</b> recebeu 342 curtidas.
+                                </p>
+
+                                <small>
+                        há 2 horas
+                    </small>
+
+                            </div>
+                            <button type="button" class="activity-more" aria-label="Mais opções">
+                                •••
+                            </button>
+                        </div>
+                        <div class="activity">
+                            <span class="activity-icon activity-blue">▶</span>
+                            <div class="activity-content">
+                                <p>
+                                    <b>“Entre o Caos”</b> foi reproduzida 1,2 mil vezes.
+                                </p>
+
+                                <small>há 5 horas</small>
+
+                            </div>
+
+                            <button type="button" class="activity-more" aria-label="Mais opções">•••</button>
+                        </div>
+
+
+                        <div class="activity">
+
+                            <span class="activity-icon activity-cyan">
+                    ♙
+                </span>
+
+                            <div class="activity-content">
+                                <p>Você ganhou <b>24 novos seguidores.</b>
+                                </p>
+                                <small>há 1 dia</small>
+                            </div>
+                            <button type="button" class="activity-more" aria-label="Mais opções">
+                                •••
+                            </button>
+                        </div>
+
+                        <div class="activity">
+                            <span class="activity-icon activity-list-icon">≡</span>
+                            <div class="activity-content">
+                                <p>Sua música entrou na playlist
+                                    <b>“Novos Talentos”.</b>
+                                </p>
+                                <small>
+                        há 2 dias
+                    </small>
+                            </div>
+                            <button type="button" class="activity-more" aria-label="Mais opções">
+                                •••
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+            </aside>
+        </section>
+
+        <footer class="site-footer">
+            <div><img src="https://uploads.onecompiler.io/44gvyfsca/452959n5r/Logomarca.png.png" alt="ECO" />
+                <p>Sua música, seu público.</p><small>2026 ECO. Todos os direitos reservados.</small></div>
+            <div>
+                <h3>Navegação</h3><a href="#inicio">Início</a><a href="#lancamentos">Minhas músicas</a><a href="#playlists">Playlists</a><a href="#analytics">Analytics</a></div>
+            <div>
+                <h3>Artista</h3><a href="#">Publicar música</a><a href="#">Meus lançamentos</a><a href="#">Estatísticas</a><a href="#">Perfil</a></div>
+            <div>
+                <h3>Ajuda</h3><a href="#">Central de ajuda</a><a href="#">Termos de uso</a><a href="#">Privacidade</a><a href="#">Contato</a></div>
+            <div>
+                <h3>Redes sociais</h3>
+                <p class="socials">Instagram, YouTube, TikTok</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
