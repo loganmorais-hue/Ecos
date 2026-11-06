@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="cadastro-style.css" />
+  </head>
+  <body>
+      <header class="topbar">
+        <img class="logo" src="https://uploads.onecompiler.io/44gvyfsca/452959n5r/Logomarca.png.png" alt="Logo ECO" />
+        <nav class="menu">
+                <a href="#" class="menu-item"><span class="label">Início</span></a>
+                <a href="#" class="menu-item"><span class="label">Explorar</span></a>
+                <a href="#" class="menu-item"><span class="label">Gêneros</span></a>
+                <a href="#" class="menu-item"><span class="label">Sobre</span></a>
+            </nav>        
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar músicas, artists...">
+        </div>
+          <div class="auth-buttons">
+            <button type="button" class="btn btn-login" onclick="logar()">Entrar</button>
+            <button type="button" class="btn btn-register" onclick="cadastrar()">Cadastrar</button>
+          </div>
+    </header>
+    <main class="landing-content">
+      <section class="hero-left" aria-label="Apresentação do ECO">
+        <div class="hero-copy">
+          <h1>Sua jornada musical<br>começa <span>aqui.</span></h1>
+          <p>Crie sua conta no ECO e tenha acesso a<br class="desktop-break"> recomendações personalizadas, playlists<br class="desktop-break"> exclusivas e muito mais.</p>
+        </div>
 
+        <div class="hero-features">
+          <div class="feature-item">
+            <div class="feature-circle" aria-hidden="true"></div>
+            <div>
+              <h2>Recomendações inteligentes</h2>
+              <p>Descubra músicas que combinam com você.</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-circle" aria-hidden="true"></div>
+            <div>
+              <h2>Salve suas playlists</h2>
+              <p>Monte e organize suas faixas favoritas.</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-circle" aria-hidden="true"></div>
+            <div>
+              <h2>Faça parte da comunidade</h2>
+              <p>Siga artistas, amigos e explore novos sons.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-slogan">
+          <strong>MÚSICA É MAIS DO QUE SOM.</strong>
+          <em>É você.</em>
+        </div>
+      </section>
+
+    <aside class="cadastro">
+    <img class="eco" src="https://uploads.onecompiler.io/44gvyfsca/1789844882326/Eco.png" alt="ECO">
+    <h3>Crie sua conta</h3>
+    <p class="cadastro-subtitle">Comece sua jornada musical no ECO.</p>
+
+    <div class="tipo-usuario">
+        <button type="button" class="tipo-btn ativo">
+            <img src="https://uploads.onecompiler.io/44gvyfsca/453rpszde/2815428.png" class="ouvinte" alt="Ícone de ouvinte"/>
+            <span>
+                <strong>Listener</strong>
+                <small>Descubra sua música</small>
+            </span>
+        </button>
+
+        <button type="button" class="tipo-btn">
+            <img src="https://uploads.onecompiler.io/44gvyfsca/453rpszde/2983820.png" class="artista" alt="Ícone de artista"/>
+            <span>
+                <strong>Artista</strong>
+                <small>Compartilhe sua música</small>
+            </span>
+        </button>
+
+    </div>
+
+    <form class="cadastro-form">
+        <div class="input-group">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" placeholder="Nome completo">
+        </div>
+
+        <div class="input-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="E-mail">
+        </div>
+
+        <div class="input-group">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Crie uma senha">
+        </div>
+
+        <div class="input-group">
+            <label for="confirmar-senha">Confirmar senha</label>
+            <input type="password" id="confirmar-senha" placeholder="Confirme sua senha">
+        </div>
+
+        <div class="input-group">
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date" id="nascimento" class="nascimento" placeholder="DD / MM / AAAA">
+        </div>
+        <button type="submit" class="btn-cadastrar">Cadastrar</button>
+    </form>
+
+    <div class="ou-divider">
+        <span>ou continue com</span>
+    </div>
+
+    <div class="social-buttons">
+        <button type="button" class="social-btn google-btn"><img src="https://uploads.onecompiler.io/44gvyfsca/452959n5r/C%C3%83%C2%B3pia%20de%20Login.png" class="image" alt="Google">Google</button>
+        <button type="button" class="social-btn"><img src="">Apple</button>
+        <button type="button" class="social-btn"><img src="">Spotify</button>
+    </div>
+
+    <p class="login-link">Já tem uma conta?
+        <a onclick="logar()">Entrar</a>
+    </p>
+    </aside>
+    </main>
+      <script src="../auth-buttons.js"></script>
+      <script src="cadastro-js.js"></script>
+  </body>
+</html>
